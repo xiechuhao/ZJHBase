@@ -4,6 +4,9 @@ platform :ios, '9.0'
 
 target 'ZJHBase_Example' do
   pod 'ZJHBase', :path => '../'
+  pod 'ZJHCommon', :path => '../../ZJHCommon'
+  pod 'ZJHMe', :path => '../../ZJHMe'
+  pod 'ZJHHome', :path => '../../ZJHHome'
 
   target 'ZJHBase_Tests' do
     inherit! :search_paths

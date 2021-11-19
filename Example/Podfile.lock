@@ -1,0 +1,55 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MGJRouter_Swift (0.1.2)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - ZJHBase (0.1.0):
+    - ZJHCommon
+    - ZJHHome
+    - ZJHMe
+  - ZJHCommon (0.1.0):
+    - SDWebImage (~> 5.8.4)
+  - ZJHHome (0.1.0):
+    - MGJRouter_Swift
+  - ZJHMe (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - ZJHBase (from `../`)
+  - ZJHCommon (from `../../ZJHCommon`)
+  - ZJHHome (from `../../ZJHHome`)
+  - ZJHMe (from `../../ZJHMe`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - MGJRouter_Swift
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  ZJHBase:
+    :path: "../"
+  ZJHCommon:
+    :path: "../../ZJHCommon"
+  ZJHHome:
+    :path: "../../ZJHHome"
+  ZJHMe:
+    :path: "../../ZJHMe"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MGJRouter_Swift: ae89cc7c4c82618b636cc9c7b15636e516080d3c
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  ZJHBase: 6b1551caf184d057df6174e4b32404a3b17bb9b0
+  ZJHCommon: 1c2d8207d7a19a5d7d241f0e797239b5295ca930
+  ZJHHome: f9363c1128eee8f5337a2a132faac900261372bd
+  ZJHMe: fa5142a45bc44ec71ffed2f71ba4a485b45b3bba
+
+PODFILE CHECKSUM: b697701c7b020b949b2560cc25a09cf288692cef
+
+COCOAPODS: 1.10.1

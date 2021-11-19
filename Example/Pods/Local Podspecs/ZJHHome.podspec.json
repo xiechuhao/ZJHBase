@@ -1,0 +1,27 @@
+{
+  "name": "ZJHHome",
+  "version": "0.1.0",
+  "summary": "A short description of ZJHHome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1025745401@qq.com/ZJHHome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1025745401@qq.com": "1025745401@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1025745401@qq.com/ZJHHome.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZJHHome/Classes/**/*",
+  "dependencies": {
+    "MGJRouter_Swift": [
+
+    ]
+  }
+}

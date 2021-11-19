@@ -1,0 +1,22 @@
+{
+  "name": "ZJHMe",
+  "version": "0.1.0",
+  "summary": "A short description of ZJHMe.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1025745401@qq.com/ZJHMe",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1025745401@qq.com": "1025745401@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1025745401@qq.com/ZJHMe.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZJHMe/Classes/**/*"
+}

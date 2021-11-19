@@ -1,0 +1,6 @@
+framework module ZJHMe {
+  umbrella header "ZJHMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
